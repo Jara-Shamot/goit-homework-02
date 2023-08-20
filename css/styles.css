@@ -23,7 +23,7 @@
 background: #404BBF;
 }
 .button-text{
- color:  #FFF;
+color:  #FFF;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -38,9 +38,9 @@ body{
 
 
 .logo{
-    height: 24px;
-    flex-shrink: 0;
-    color:#2E2F42;
+        height: 24px;
+        flex-shrink: 0;
+        color:#2E2F42;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -52,7 +52,7 @@ body{
 }
 
 .bold-raleway-web{
-color: #4D5AE5;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -62,7 +62,7 @@ color: #4D5AE5;
 }
 
 .bold-raleway-studio{
-color:  #2E2F42;
+    color:  #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -71,7 +71,7 @@ color:  #2E2F42;
     text-transform: uppercase;
 }
 .menu-link{
-color:  #2E2F42;
+    color:  #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -83,7 +83,7 @@ color:  #2E2F42;
 }
 
 .address-list-item-mail{
-color: #434455;
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -91,7 +91,7 @@ color: #434455;
     letter-spacing: 0.32px;
 }
 .address-list-item-tel{
-color: #434455;
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -110,7 +110,7 @@ color:  var(--accent-color);
 }
 
 .effective-solution{
-color:  #FFF;
+    color:  #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-weight: 700;
@@ -126,11 +126,11 @@ background:#2E2F42;
 .strategy-text{
     color: #434455;
     font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
         
         
 }
@@ -138,7 +138,7 @@ background:#2E2F42;
 .punctuality-head,
 .diligence-head,
 .technologies-head{
-color: #2E2F42;
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -164,8 +164,7 @@ color: #434455;
 
 .our-team-head,
 .our-portfolio{
-color: #2E2F42;
-    text-align: center;
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -177,23 +176,23 @@ color: #2E2F42;
 .our-team-background{
 background-color: #F4F4FD
 }
-.mark,
-.tom,
-.camila,
-.daniel{
-color: #2E2F42;
+.over-mark-name,
+.over-tom-name,
+.over-camila-name,
+.over-daniel-name{
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
-    background: #FFF}
-.mark-job,
-.tom-job,
-.camila-job,
-.daniel-job{
-color: #434455;
+    background-color: #FFF}
+.over-mark-job,
+.over-tom-job,
+.over-camila-job,
+.over-daniel-job{
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
