@@ -33,7 +33,6 @@ letter-spacing: 0.64px;
 .logo{
 display: inline-flex;
     height: 24px;
-    align-items: center;
     flex-shrink: 0;
     color:#2E2F42;
         font-family: 'Raleway', sans-serif;
