@@ -38,7 +38,6 @@ body{
 
 
 .logo{
-display: inline-flex;
     height: 24px;
     flex-shrink: 0;
     color:#2E2F42;
