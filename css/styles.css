@@ -12,6 +12,13 @@
 .button{
     cursor: pointer;
 }
+
+.button:hover{
+    background-color: #404BBF
+}
+.button:focus {
+    color: #FFFFFF
+}
 .button-background-color{
 background: #4D5AE5;
 }
@@ -23,9 +30,9 @@ font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.64px;   
 }
-.body{
+body{
     font-family: 'Roboto', sans-serif;
-    color:#434455
+    color:#434455;
     background-color:#FFFFFF
 }
 
@@ -103,10 +110,6 @@ color: #434455;
 color:  var(--accent-color);
 }
 
-.button:hover,
-.button:focus{
-color:#FFFFFF
-}
 .effective-solution{
 color:  #FFF;
     text-align: center;
