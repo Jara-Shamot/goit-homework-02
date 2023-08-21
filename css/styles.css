@@ -91,9 +91,11 @@ body{
 }
 
 .menu-link:hover,
-.menu-link:focus,
+.menu-link:focus{
+color: var(--accent-color);
+}
 .address-list-item-link:hover,
-.address-list-item-link:focus, 
+.address-list-item-link:focus 
 {
 color: var(--accent-color);
 }
