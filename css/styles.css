@@ -134,16 +134,7 @@ background:#2E2F42;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.strategy-text{
-    color: #434455;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
         
-        
-}
 .list-head{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -152,13 +143,8 @@ background:#2E2F42;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.punctuality{
-  
-}
-
-.punctuality-text,
-.diligence-text,
-.technologies-text{
+.list-text
+{
 color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
