@@ -27,7 +27,7 @@ color:  #FFF;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
-line-height: 1.5; /* 150% */
+line-height: 1.5; 
 letter-spacing: 0.64px;   
 }
 body{
@@ -46,7 +46,6 @@ body{
         font-style: normal;
         font-weight: 700;
         line-height: 1.17;
-        /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -115,7 +114,6 @@ color:  var(--accent-color);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
     letter-spacing: 1.12px;
 }
 .navy-background{
@@ -123,18 +121,36 @@ flex-shrink: 0;
 background:#2E2F42;
 }
 
+.visually-hidden
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .strategy-text{
     color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.32px;
         
         
 }
-.strategy-head,
+.strategy-head{
+    color: #2E2F42;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
 .punctuality-head,
 .diligence-head,
 .technologies-head{
@@ -143,7 +159,6 @@ background:#2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
     letter-spacing: 0.4px;
 }
 .punctuality{
@@ -158,21 +173,20 @@ color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.32px;
 }
 
 .our-team-head,
 .our-portfolio{
     color: #2E2F42;
+    text-align: center
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
     letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
+    text-transform: capitalize}
+
 .our-team-background{
 background-color: #F4F4FD
 }
@@ -185,7 +199,6 @@ background-color: #F4F4FD
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
     letter-spacing: 0.4px;
     background-color: #FFF}
 .over-mark-job,
@@ -197,7 +210,6 @@ background-color: #F4F4FD
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.32px;
 }
 .banking-app,
@@ -211,7 +223,6 @@ background-color: #F4F4FD
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        /* 120% */
         letter-spacing: 0.4px;}
 .over-banking-app,
 .over-cashless-payment,
@@ -224,7 +235,6 @@ background-color: #F4F4FD
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.32px;}
 .footer-text{
 color: #F4F4FD;
@@ -232,7 +242,6 @@ color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.32px;
 }
 .bold-raleway-studio-white{
@@ -241,7 +250,6 @@ color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
