@@ -124,11 +124,6 @@ background:#2E2F42;
 
 .visually-hidden
 {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -176,7 +171,7 @@ background-color: #F4F4FD
     line-height: 1.2;
     letter-spacing: 0.4px;
     background-color: #FFFFFF}
-    
+
 .our-team-name-job{
     color: #434455;
     font-family: 'Roboto', sans-serif;
@@ -198,24 +193,16 @@ color: #2E2F42;
     text-transform: capitalize;
 }
 
-.banking-app,
-.cashless-payment,
-.meditation-app,
-.taxi-service,
-.screen-illustrations,
-.online-courses{
+.our-portfolio-app-name{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+    text-align: center
+    font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;}
-.over-banking-app,
-.over-cashless-payment,
-.over-meditation-app,
-.over-taxi-service,
-.over-screen-illustrations,
-.over-online-courses{
+        
+.our-portfolio-app-name-text{
     color: #434455;
     font-family: 'Roboto', sans-serif;
         font-size: 16px;
