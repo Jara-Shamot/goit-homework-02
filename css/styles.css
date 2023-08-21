@@ -81,15 +81,7 @@ body{
     font-style: normal;
 }
 
-.address-list-item-mail{
-    color: #434455;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-.address-list-item-tel{
+.address-list-item-link{
     color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -100,12 +92,10 @@ body{
 
 .menu-link:hover,
 .menu-link:focus,
-.address-list-item-mail:hover,
-.address-list-item-mail:focus,
-.address-list-item-tel:hover,
-.address-list-item-tel:focus
+.address-list-item-link:hover,
+.address-list-item-link:focus, 
 {
-color:  var(--accent-color);
+color: var(--accent-color);
 }
 
 .effective-solution{
