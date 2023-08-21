@@ -153,8 +153,8 @@ color: #434455;
     letter-spacing: 0.32px;
 }
 
-.our-team-head,
-.our-portfolio{
+.our-team-head
+{
     color: #2E2F42;
     text-align: center
     font-family: 'Roboto', sans-serif;
@@ -167,21 +167,16 @@ color: #434455;
 .our-team-background{
 background-color: #F4F4FD
 }
-.over-mark-name,
-.over-tom-name,
-.over-camila-name,
-.over-daniel-name{
+
+.our-team-name{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    background-color: #FFF}
-.over-mark-job,
-.over-tom-job,
-.over-camila-job,
-.over-daniel-job{
+    background-color: #FFFFFF}
+.our-team-name{
     color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -189,6 +184,18 @@ background-color: #F4F4FD
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+.our-portfolio{
+color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
 .banking-app,
 .cashless-payment,
 .meditation-app,
